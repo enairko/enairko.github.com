@@ -1,0 +1,324 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    font-family: sans-serif;
+}
+
+#nav-bar
+{
+   position: sticky;
+   top: 0;
+   z-index: 10; 
+}
+
+.navbar
+{
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+    padding: 0 !important;
+}
+
+.navbar-brand img
+{
+   height: 50px;
+   padding-left: 20px;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+
+.navbar-nav li a
+{
+    color: #fff !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars
+{
+    color: #fff;
+    font-size: 30px !important;
+}
+
+.navbar-toggler
+{
+    outline: none !important;
+}
+
+/*-----------------banner section-------------------*/
+
+
+#banner
+{
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+    color: #fff;
+    padding-top: 5%;
+}
+
+.banner2
+{
+    margin-top: 50px;
+}
+
+.promo-title
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+}
+
+.bottom-img
+{
+    width: 100%;
+    margin-top: 20px;
+}
+
+/*----------------diensten section------------------*/
+
+
+#diensten
+{
+    padding: 80px 0;
+}
+
+.dienst-img
+{
+    width: 250px;
+    margin-top: 20px;
+}
+
+.diensten
+{
+    padding: 20px;
+}
+
+.diensten h4
+{
+    padding: 5px;
+    margin-top: 25px;
+    text-transform: uppercase;
+}
+
+.titel::before
+{
+    content: '';
+    background: #30860D;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+}
+
+
+/*.titel::after                   wss weglaten
+{
+    content: '';
+    background: #30860D;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+    transform: translateY(8px);
+}*/
+
+
+#diensten .btn-primary
+{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+}
+
+
+
+/*----------------ons bedrijf section------------------*/
+
+
+
+#ons-bedrijf
+{
+    background: #f8f9fa;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.ons-titel
+{
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 8%;
+}
+
+#ons-bedrijf ul li
+{
+    margin: 10px 0;
+    
+}
+
+#ons-bedrijf ul
+{
+    margin-left: 20px;
+}
+
+.windmolen
+{
+    margin-top: 55px;
+}
+
+
+/*----------------nieuws section------------------*/
+
+
+#nieuws
+{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.krant
+{
+    margin-top: 50px;
+}
+
+
+/*----------------social media section------------------*/
+
+
+#social-media
+{
+    background: #f8f9fa;
+    padding:  100px 0;
+}
+
+#social-media p
+{
+    font-size: 36px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.social-icons img
+{
+    width: 60px;
+    transition: 0.5s;
+}
+
+
+.social-icons a:hover img
+{
+    transform: translateY(-10px)
+}
+
+
+/*----------------footer section------------------*/
+
+
+#footer
+{
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+    color: #fff
+}
+
+.footer-img
+{
+    width: 100%
+}
+
+.footer-box
+{
+    padding: 20px;
+}
+
+.footer-box img
+{
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+/*.footer-box .fa
+{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+}*/
+
+.footer-box .form-control
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+    margin-top: 25px;
+    max-width: 250px;
+}
+
+
+.footer-box .btn-primary
+{
+    box-shadow: none !important;
+    border: none;
+    border-radius: 0; 
+    margin-top: 30px;
+    background-image: linear-gradient(to right, #6FC84A, #30860D);
+}
+
+
+/*----------------EPC page------------------*/
+
+
+.video
+{
+    margin-top: 60px;
+}
+
+#table
+{
+    padding-bottom: 50px;
+    padding-top: 0px;
+}
+
+
+#te-werk
+{
+    background: #f8f9fa;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+/*----------------aircokeuring page------------------*/
+
+#wanneer
+{
+    background: #f8f9fa;
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+#wanneer ul li
+{
+    margin: 10px 0;
+    
+}
+
+#wanneer ul
+{
+    margin-left: 20px;
+}
+
